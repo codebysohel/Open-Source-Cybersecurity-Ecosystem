@@ -44,88 +44,96 @@
 *   **[Nuclei](https://github.com/projectdiscovery/nuclei)** - Fast and customizable vulnerability scanner.
 *   **[BBOT](https://github.com/blacklanternsecurity/bbot)** - Modular automated recon framework.
 
-###  SOC Tools
+## SOC TOOLS
 
-#### [IRIS](https://github.com/dfir-iris/iris-web) **Alternative to:** TheHive, ServiceNow SecOps.   **Features:** Incident handling, Case management, Evidence tracking, IOC management.
-#### [SOCFortress](https://github.com/socfortress) **Provides:** Complete SOC stack, Wazuh integrations, MISP integrations, DFIR workflows. **Recommended for:** Students, Home labs.
-#### [Timesketch](https://github.com/google/timesketch) Google's forensic timeline platform.**Features:** Timeline analysis, Threat hunting, DFIR investigations.
-#### [Hayabusa](https://github.com/Yamato-Security/hayabusa) **Purpose:** Windows event log hunting, Sigma detection. Extremely fast.
+### SOC Platforms
+
+* **[IRIS](https://github.com/dfir-iris/iris-web)** - Open-source incident response and case management platform. Supports incident handling, evidence tracking, IOC management, and investigation workflows.
+* **[SOCFortress](https://github.com/socfortress)** - Complete SOC ecosystem with Wazuh integrations, MISP integrations, DFIR workflows, and blue-team automation capabilities.
+* **[Timesketch](https://github.com/google/timesketch)** - Collaborative forensic timeline analysis platform developed by Google for threat hunting and DFIR investigations.
+* **[Hayabusa](https://github.com/Yamato-Security/hayabusa)** - High-performance Windows event log hunting tool with Sigma rule support and rapid threat detection capabilities.
 
 ---
 
 ## THREAT INTELLIGENCE
 
-###  CTI Platforms #### [Yeti](https://github.com/yeti-platform/yeti) Threat intelligence platform. **Useful for:** IOC storage, Malware tracking, Actor tracking.
+### CTI Platforms
 
-#### [IntelOwl](https://github.com/intelowlproject/IntelOwl) IOC enrichment automation.   **Supports:** VirusTotal, URLHaus, MalwareBazaar, Hybrid Analysis.
-
-#### [ThreatBus](https://github.com/tenzir/threatbus) Real-time intelligence sharing.   **Connects:** MISP, Zeek, Suricata, OpenCTI.
-
-#### [ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator) Visualization platform for the MITRE ATT&CK framework.
+* **[Yeti](https://github.com/yeti-platform/yeti)** - Threat intelligence platform for IOC management, malware tracking, threat actor correlation, and intelligence enrichment.
+* **[IntelOwl](https://github.com/intelowlproject/IntelOwl)** - Automated IOC enrichment framework integrating VirusTotal, URLHaus, MalwareBazaar, Hybrid Analysis, and other intelligence sources.
+* **[ThreatBus](https://github.com/tenzir/threatbus)** - Real-time cyber threat intelligence sharing bus connecting MISP, Zeek, Suricata, OpenCTI, and other security platforms.
+* **[ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator)** - MITRE ATT&CK visualization and analysis tool for adversary mapping and defensive coverage assessments.
 
 ---
 
 ## DIGITAL FORENSICS
 
-###  DFIR Tools
-#### [Velociraptor](https://github.com/Velocidex/velociraptor) Arguably one of the strongest DFIR platforms today.  **Features:** Memory collection, Artifact collection, Live response, Threat hunting.
-#### [KAPE](https://github.com/EricZimmerman/KapeFiles) Fast artifact acquisition and processing.
-#### [Chainsaw](https://github.com/WithSecureLabs/chainsaw) Windows forensic hunting using Sigma and EVTX logs.
-#### [Plaso](https://github.com/log2timeline/plaso)Engine for timeline generation (log2timeline).
-#### [Autopsy](https://github.com/sleuthkit/autopsy)GUI-based disk forensics and digital investigation platform.
+### DFIR Tools
+
+* **[Velociraptor](https://github.com/Velocidex/velociraptor)** - Enterprise-grade DFIR and endpoint visibility platform supporting artifact collection, memory acquisition, live response, and threat hunting.
+* **[KAPE](https://github.com/EricZimmerman/KapeFiles)** - Rapid evidence acquisition and forensic artifact collection framework designed for incident response investigations.
+* **[Chainsaw](https://github.com/WithSecureLabs/chainsaw)** - Fast Windows forensic hunting tool leveraging Sigma rules and EVTX log analysis.
+* **[Plaso](https://github.com/log2timeline/plaso)** - Log2Timeline engine for large-scale timeline generation and forensic event reconstruction.
+* **[Autopsy](https://github.com/sleuthkit/autopsy)** - GUI-based digital forensics platform built on The Sleuth Kit for disk, file system, and artifact analysis.
 
 ---
 
 ## MOBILE SECURITY
 
-### Core Mobile Stack
-#### [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)**Supports:** Static analysis, Dynamic analysis, Malware analysis, APK review.
-#### [Androguard](https://github.com/androguard/androguard)APK reverse engineering and analysis.
-#### [JADX](https://github.com/skylot/jadx)Android decompiler to produce Java source code from Android Dex and APK files.
-#### [Frida](https://github.com/frida/frida)Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.
+### Core Mobile Security Tools
 
-#### [Objection](https://github.com/sensepost/objection)
-Runtime mobile exploration powered by Frida.
+* **[MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)** - Automated mobile application security testing framework supporting static, dynamic, and malware analysis.
+* **[Androguard](https://github.com/androguard/androguard)** - Reverse engineering and malware analysis toolkit for Android applications.
+* **[JADX](https://github.com/skylot/jadx)** - Android decompiler that converts DEX and APK files into readable Java source code.
+* **[Frida](https://github.com/frida/frida)** - Dynamic instrumentation toolkit for runtime analysis, reverse engineering, and application manipulation.
+* **[Objection](https://github.com/sensepost/objection)** - Frida-powered runtime mobile application exploration and security assessment framework.
 
-### Android Forensics #### [ALEAPP](https://github.com/abrignoni/ALEAPP) Android artifact parser supporting databases, logs, and application artifacts.
-#### [AndroidQF](https://github.com/ydkhatri/AndroidQF) Android forensic parsing and acquisition.
-#### [Andriller](https://github.com/den4uk/andriller)Commercial-grade style Android data acquisition and decoding.
+### Android Forensics
+
+* **[ALEAPP](https://github.com/abrignoni/ALEAPP)** - Android artifact parser supporting application databases, logs, accounts, and forensic evidence extraction.
+* **[AndroidQF](https://github.com/ydkhatri/AndroidQF)** - Android forensic acquisition and parsing framework for mobile investigations.
+* **[Andriller](https://github.com/den4uk/andriller)** - Android forensic acquisition and decoding suite for extracting and analyzing device data.
 
 ---
 
 ## ENDPOINT DETECTION & RESPONSE
 
-### EDR Tools
-#### [FleetDM](https://github.com/fleetdm/fleet)Enterprise osquery management and orchestration.
-#### [Osquery](https://github.com/osquery/osquery)Exposes operating system metrics as relational database tables.
-#### [LimaCharlie Agent](https://github.com/refractionPOINT)Cloud-native EDR/Endpoint security platform.
-#### [OpenEDR](https://github.com/ComodoSecurity/openedr)Full-featured open-source EDR.
-#### [HELK](https://github.com/Cyb3rWard0g/HELK)The Hunting ELK.  
-**Supports:** Sigma, Sysmon, ATT&CK.
+### EDR Platforms
+
+* **[FleetDM](https://github.com/fleetdm/fleet)** - Enterprise-scale osquery management and endpoint orchestration platform.
+* **[Osquery](https://github.com/osquery/osquery)** - SQL-powered operating system instrumentation framework exposing system data as relational tables.
+* **[LimaCharlie Agent](https://github.com/refractionPOINT)** - Cloud-native EDR and security automation platform for endpoint visibility and response.
+* **[OpenEDR](https://github.com/ComodoSecurity/openedr)** - Open-source endpoint detection and response solution with threat monitoring and remediation features.
+* **[HELK](https://github.com/Cyb3rWard0g/HELK)** - Hunting ELK platform supporting Sigma, Sysmon, ATT&CK mapping, and advanced threat hunting operations.
+
 ---
 
 ## AI SECURITY
 
 ### Local LLM Security Projects
-#### [Open WebUI](https://github.com/open-webui/open-webui)User-friendly web interface for local LLMs.
-#### [Ollama](https://github.com/ollama/ollama)Get up and running with large language models locally.
-#### [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter)A natural language interface for computers to run code.
-#### [CrewAI](https://github.com/crewAIInc/crewAI)Framework for orchestrating role-playing, autonomous AI agents.
-#### [LangGraph](https://github.com/langchain-ai/langgraph)Agent orchestration for building complex stateful AI applications.
 
-### AI + SOC
-**Architecture:** Wazuh + OpenCTI + TheHive + Ollama + Llama 3 + CrewAI.
+* **[Open WebUI](https://github.com/open-webui/open-webui)** - User-friendly web interface for managing and interacting with local large language models.
+* **[Ollama](https://github.com/ollama/ollama)** - Lightweight framework for deploying and running large language models locally.
+* **[Open Interpreter](https://github.com/OpenInterpreter/open-interpreter)** - Natural language interface enabling LLM-driven code execution and system interaction.
+* **[CrewAI](https://github.com/crewAIInc/crewAI)** - Multi-agent orchestration framework for autonomous AI workflows and role-based agents.
+* **[LangGraph](https://github.com/langchain-ai/langgraph)** - Stateful agent orchestration framework for complex AI and LLM applications.
+
+### AI-Powered SOC
+
+* **Wazuh + OpenCTI + TheHive + Ollama + Llama 3 + CrewAI** - Modern AI-driven SOC architecture combining detection, intelligence, incident response, local LLMs, and autonomous security agents.
 
 ---
 
 ## NETWORK SECURITY
 
-### Network Tools
+### Network Visibility & Detection
 
-#### [Arkime](https://github.com/arkime/arkime)Open-source, indexed packet capture and search platform.
-#### [Malcolm](https://github.com/idaholab/Malcolm)**Combines:** Zeek, Suricata, Arkime.
-#### [Brim](https://github.com/brimdata/brim)Desktop app to efficiently search and analyze PCAP files and Zeek logs.
-#### [RITA](https://github.com/activecm/rita)Real Intelligence Threat Analytics for beacon detection.
-#### [Stenographer](https://github.com/google/stenographer)
+* **[Arkime](https://github.com/arkime/arkime)** - High-performance packet capture, indexing, and network traffic search platform.
+* **[Malcolm](https://github.com/idaholab/Malcolm)** - Integrated network monitoring stack combining Zeek, Suricata, Arkime, and traffic analysis components.
+* **[Brim](https://github.com/brimdata/brim)** - Desktop application for rapid analysis of PCAP files, Zeek logs, and network telemetry.
+* **[RITA](https://github.com/activecm/rita)** - Beacon detection and network threat hunting platform for identifying command-and-control activity.
+* **[Stenographer](https://github.com/google/stenographer)** - Scalable full-packet capture solution designed for continuous network traffic recording and analysis.
+
+---
 Packet capture solution designed to write large amounts of data to disk.
 
