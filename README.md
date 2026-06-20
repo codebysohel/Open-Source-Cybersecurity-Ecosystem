@@ -46,11 +46,10 @@
 
 ###  SOC Tools
 
-*#### [IRIS](https://github.com/dfir-iris/iris-web) **Alternative to:** TheHive, ServiceNow SecOps.   **Features:** Incident handling, Case management, Evidence tracking, IOC management.
-
-*#### [SOCFortress](https://github.com/socfortress) **Provides:** Complete SOC stack, Wazuh integrations, MISP integrations, DFIR workflows. **Recommended for:** Students, Home labs.
-*#### [Timesketch](https://github.com/google/timesketch) Google's forensic timeline platform.**Features:** Timeline analysis, Threat hunting, DFIR investigations.
-*#### [Hayabusa](https://github.com/Yamato-Security/hayabusa) **Purpose:** Windows event log hunting, Sigma detection. Extremely fast.
+#### [IRIS](https://github.com/dfir-iris/iris-web) **Alternative to:** TheHive, ServiceNow SecOps.   **Features:** Incident handling, Case management, Evidence tracking, IOC management.
+#### [SOCFortress](https://github.com/socfortress) **Provides:** Complete SOC stack, Wazuh integrations, MISP integrations, DFIR workflows. **Recommended for:** Students, Home labs.
+#### [Timesketch](https://github.com/google/timesketch) Google's forensic timeline platform.**Features:** Timeline analysis, Threat hunting, DFIR investigations.
+#### [Hayabusa](https://github.com/Yamato-Security/hayabusa) **Purpose:** Windows event log hunting, Sigma detection. Extremely fast.
 
 ---
 
